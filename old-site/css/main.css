@@ -10,6 +10,14 @@ h1 {
   color: blue;
 }
 
+.white-text-header {
+  color: blue;
+}
+
+.white-text-footer {
+  color: blue;
+}
+
 h2 {
   font-family: 'Raleway', sans-serif;
 }
