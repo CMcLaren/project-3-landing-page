@@ -1,10 +1,9 @@
-.hero-image {
-  background-image: url('bg.jpg');
+.bg.jpg {
   background-repeat: none;
   background-position: top center;
   background-attachment: fixed;
   width: 1100px;
-  height: 550px;
+  height: 300px;
 }
 
 h1 {
