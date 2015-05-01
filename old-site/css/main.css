@@ -52,6 +52,9 @@ h3 {
 }
 
 h4 {
+  margin-top: 20px;
+  margin-left: 122px;
+  margin-right: 126px;
   font-family: 'Raleway', sans-serif;
   font-size: small;
 }
@@ -72,8 +75,8 @@ span {
 
 .middle {
   width: 100%;
-  margin-left: 63px;
-  margin-bottom: 111px;
+  margin-left: 0px;
+  margin-bottom: 22px;
 }
 
 
@@ -87,7 +90,7 @@ span {
 }
 
 .circle-wrap {
-  width: 30%;
+  width: 33%;
   display: inline-block;
   text-align: center;
 }
