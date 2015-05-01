@@ -1,31 +1,33 @@
+
+
 html,body {
   width: 100%;
-  height: 100%;
+  margin: 0px;
+  padding: 0px
 }
 
 .top-half {
   background-image: url("../../designs/assets/bg.jpg");
   background-size: cover;
   width: 100%;
-  height: 100%;
+  text-align: center;
+  height: 60vh;
 }
 
-h1 {
-  font-family: 'Raleway', sans-serif;
-  color: white;
+.vert-center {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
+.intro-title {
+  font-family: 'Raleway', sans-serif;
+  color: white;
   text-align: center;
   font-size: 2.5em;
-  margin-bottom: -7px;
 }
 
 .white-text-header {
   color: white;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
   text-align: center;
 }
 
@@ -41,8 +43,7 @@ h1 {
 h2 {
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  margin-top: 47px;
-  margin-bottom: 14px;
+  margin: 0px;
 }
 
 h3 {
@@ -65,7 +66,7 @@ p {
   text-align: center;
   font-size: small;
   margin-top: 0px;
-  margin-bottom: 22px;
+  margin-bottom: 0px;
 }
 
 span {
@@ -98,13 +99,17 @@ span {
 .fa {
   color: #8099B2;
   margin-top: 30px;
-
+}
 
 .bottom-line {
   width: 100%;
   height: 150px;
   margin-left: 53px;
   margin-top: 53px;
+}
+
+.hover-text {
+  margin-top: 5px;
 }
 
 .boxes {
@@ -115,10 +120,74 @@ span {
   margin-left: 80px;
   text-align: center;
 }
+.second-half {
+  display: inline-block;
+}
+.intro {
+  margin-top: 30px;
+}
   
 }
 .footer {
   width: 100%;
   height: 20px;
   background-color: black;
+}
+
+.circle-text {
+  
+}
+
+
+
+
+/* RESET IS BELOW */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
